@@ -1,0 +1,25 @@
+{
+  "name": "agrilinks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 10000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.7"
+  },
+  "devDependencies": {
+    "mocha": "^9.2.2",
+    "should": "^13.2.3",
+    "supertest": "^6.2.2"
+  }
+}

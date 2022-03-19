@@ -1,0 +1,52 @@
+<!-- this template is for user to enter data in form -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Product</title>
+</head>
+
+<body>
+    <h1>Add A Report</h1>
+    <form action="/reports" method="POST">
+        <div>
+        <label for="userID">User ID</label>
+        <input type="text" name="reportDetails[userID]" id="userID" placeholder="user ID">
+        </div>
+        <div>
+        <label for="marketID">Market ID</label>
+        <input type="text" name="reportDetails[marketID]" id="marketID" placeholder="market ID">
+        </div>
+        <div>
+        <label for="marketName">Market Name</label>
+        <input type="text" name="reportDetails[marketName]" id="marketName" placeholder="market Name">
+        </div>
+        <div>
+        <label for="cmdtyID">Commodity ID</label>
+        <input type="text" name="reportDetails[cmdtyID]" id="cmdtyID" placeholder="commodity ID">
+        </div>
+        <div>
+        <label for="cmdtyName">Commodity Name</label>
+        <input type="text" id="cmdtyName" name="reportDetails[cmdtyName]" placeholder="commodity Name">
+        </div>
+        <div>
+        <label for="priceUnit">priceUnit</label>
+        <input type="text" id="priceUnit" name="reportDetails[priceUnit]" placeholder="price Unit">
+        </div>
+        <div>
+        <label for="convFctr">Conversion Factor</label>
+        <input type="Number" id="convFctr" name="reportDetails[convFctr]" placeholder="conversion Factor">
+        </div>
+        <div>
+        <label for="price">Price</label>
+        <input type="number" id="price" name="reportDetails[price]" placeholder="price"> 
+        </div>
+        <button>Submit</button>
+    </form>
+
+</body>
+
+</html>
