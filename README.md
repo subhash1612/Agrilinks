@@ -4,7 +4,7 @@ How to run the code:
 
 ```
 //on local
-git clone https://github.com/zowe/Agrilinks
+git clone https://github.com/subhash1612/Agrilinks
 cd Agrilinks
 npm install
 node index.js
